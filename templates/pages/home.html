@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block title%}Home{% endblock title%}
+
+{% block content %}
+<h1>Home</h1>
+<p>Welcome to my first Django project!</p>
+<img src="{% static 'img/puppy.webp' %}" alt="puppy">
+{% endblock content %}
